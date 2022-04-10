@@ -1,0 +1,9 @@
+title SPA new note
+
+browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+server-->browser: Status code 201
+
+note over browser:
+browser adds new note to the data that is already fetched from server
+end note
+
